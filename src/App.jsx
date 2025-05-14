@@ -1,15 +1,18 @@
 import React from 'react'
-import MentalHealthSlide from './components/landing/MentalHealthSlide'
-import Navbar from './components/Navbar/Navbar'
-
+import Navbar from './components/Navbar'
+import Hero from './components/Hero/Hero'
+import About from './components/AboutUs/About'
+import Services from './components/Services/Services'
+import Blogs from './components/Blog/Blogs'
 const App = () => {
   return (
-   <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
-
+    <>
     <Navbar/>
-    {/* <MentalHealthSlide/> */}
-    </div>
-
+    <Hero/>
+    <About/>
+    <Services/>
+    <Blogs/>
+    </>
   )
 }
 
