@@ -13,10 +13,10 @@ const Services = () => {
   return (
     <section
       id="services"
-      className="min-h-screen bg-white px-5 lg:px-32 pt-24 lg:pt-20 pb-12"
+      className="min-h-screen bg-white px-5 lg:px-32 pt-24 lg:pt-20 pb-9"
     >
       {/* Header */}
-      <div className="flex flex-col lg:flex-row items-center justify-between gap-5">
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-2">
         <div className="text-center lg:text-left space-y-2">
           <h2 className="text-4xl font-bold text-[#36ae9a]">Our Services</h2>
           <p className="text-gray-600 max-w-md">

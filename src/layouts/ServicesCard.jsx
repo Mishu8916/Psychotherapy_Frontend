@@ -2,7 +2,7 @@ import React from "react";
 
 const ServicesCard = ({ icon, title }) => {
   return (
-    <div className="group flex flex-col items-center text-center gap-4 w-full lg:w-1/3 p-6 bg-white shadow-lg rounded-2xl cursor-pointer transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:shadow-hoverColor">
+    <div className="group flex flex-col items-center text-center gap-6 w-full lg:w-1/3 p-6 bg-white shadow-lg rounded-2xl cursor-pointer transition-all duration-300 hover:-translate-y-3 hover:shadow-2xl hover:shadow-hoverColor">
       {/* Icon container */}
       <div className="bg-[#d5f2ec] p-4 rounded-full transition-colors duration-300 group-hover:bg-[#ade9dc]">
         {icon}

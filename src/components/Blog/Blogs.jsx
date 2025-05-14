@@ -10,12 +10,12 @@ import img6 from "../../assets/blogs/blog6.jpg";
 
 const Blogs = () => {
   return (
-    <section id="blog" className="min-h-screen bg-[#f9f9f9] py-24 px-5 lg:px-20">
+    <section id="blog" className="-mt-24 min-h-screen bg-[#f9f9f9] py-1 px-1 lg:px-16">
       {/* Header */}
-      <div className="flex flex-col lg:flex-row items-center justify-between gap-4">
+      <div className="flex flex-col lg:flex-row items-center justify-between gap-2">
         <div className="text-center lg:text-left">
           <h1 className="text-4xl font-bold text-gray-800">Latest Posts</h1>
-          <p className="mt-2 text-gray-600">
+          <p className="mt-1 text-gray-600">
             Stay informed with our expert articles on health, fitness, and wellness.
           </p>
         </div>
@@ -23,7 +23,7 @@ const Blogs = () => {
       </div>
 
       {/* Blog Cards */}
-      <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="mt-12 grid gap-8 sm:grid-cols-3 lg:grid-cols-3">
         <BlogCard img={img1} headlines="Unraveling the Mysteries of Sleep" />
         <BlogCard img={img2} headlines="The Heart-Healthy Diet" />
         <BlogCard img={img3} headlines="Understanding Pediatric Vaccinations" />

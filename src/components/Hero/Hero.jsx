@@ -1,10 +1,10 @@
 import React from "react";
-import Button from "../../layouts/Button";
-import heroImage from '../../assets/img/home.png'
+import heroImage from '../../assets/img/home.png';
 
 const Hero = () => {
   return (
     <div
+      id="home"
       className="min-h-screen flex items-center justify-start bg-cover bg-center relative px-5 lg:px-32"
       style={{ backgroundImage: `url(${heroImage})` }}
     >
@@ -17,10 +17,11 @@ const Hero = () => {
           Empowering Health Choices <br /> for a Vibrant Life
         </h1>
         <p className="text-lg text-gray-200">
-          Discover personalized health and fitness solutions tailored to your
-          lifestyle. Join us in building a healthier and happier you.
+        
+Take control of your health and fitness journey with customized solutions designed specifically for your needs. Whether you're aiming for improved fitness, better nutrition, or mental well-being, we are here to guide you every step of the way.
+Our holistic approach blends expert advice, cutting-edge technology, and personalized plans to help you reach your goals. From workout routines that match your fitness level to nutrition tips that fit your lifestyle, our solutions are built to empower you to live a vibrant, healthy life.
         </p>
-        <Button title="See Services" />
+       
       </div>
     </div>
   );
